@@ -16,7 +16,7 @@ spec:
         run: frontend
     spec:
       containers:
-      - image: williamhdean/journal-server:latest
+      - image: williamhdean/journal:latest
         imagePullPolicy: Always
         name: frontend
         terminationMessagePath: /dev/termination-log
